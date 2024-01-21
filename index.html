@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik+Burned&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 85px;
+            border: 2px solid black;
+            display: inline-block;
+        }
+
+        .side-bar {
+            width: 20%;
+            height: 550px;
+            border: 2px solid black;
+            overflow: scroll;
+            overflow-x: hidden;
+            display: inline-block;
+        }
+
+        .side-bar img {
+            width: 100%;
+            height: inherit;
+            border-radius: 10px;
+        }
+
+        .img {
+            /* border: 2px solid black; */
+            height: 150px;
+            width: 80%;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            float: left;
+            display: inline;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .img:hover {
+            height: 153px;
+            width: 81%;
+            margin-top: 17px;
+            margin-left: 17px;
+            margin-bottom: 17px;
+
+        }
+
+        .right-side {
+            border: 2px solid black;
+            height: 550px;
+            width: 79%;
+            float: right;
+            display: inline;
+        }
+
+        .img-2 {
+            /* border: 2px solid black; */
+            height: 200px;
+            width: 96%;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 2px;
+            margin-right: 20px;
+        }
+
+        .img-2 img {
+            width: 100%;
+            height: inherit;
+            border-radius: 10px;
+        }
+        .img-2 img:hover{
+             width: 101%;
+            height: 101%;
+            border-radius: 11px;
+        }
+
+        .img-3 {
+            /* border: 2px solid black; */
+            height: 300px;
+            width: 48%;
+            margin-top: 2px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            margin-right: 20px;
+            display: inline-block;
+        }
+
+        .img-3 img {
+            width: 100%;
+            height: inherit;
+            border-radius: 10px;
+        }
+        .img-3 img:hover{
+            width: 101%;
+            height: 101%;
+            border-radius: 11px;
+ 
+         }
+
+        .text {
+            /* border: 2px solid black; */
+            height: 250px;
+            width: 45%;
+            margin-top: 2px;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            margin-right: 25px;
+            display: inline-block;
+            float: inherit;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: left;
+            margin-top: 50px;
+            font-size: 64px;
+            font-weight: bold;
+            font-family: 'Rubik Burned', system-ui;
+            color: rgb(58, 103, 176);
+        }
+
+        p {
+            text-align: left;
+            margin-top: 30px;
+            font-size: 15px;
+            text-align: justify;
+            font-family: 'Roboto', sans-serif;
+            color: black;
+        }
+        .logo{
+            width: 6%;
+            height: 88%;
+            display: inline-block;
+        }
+        .logo img{
+            height: 100%;
+            width: 100%;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .home {
+            float: right;
+            text-transform: uppercase;
+            padding-top: 32px;
+            width: 50%;
+            height: 100%;
+            display: inline;
+        }
+        span{
+            margin-left: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="image-food/png-transparent-infinity-food-logo-thumbnail-removebg-preview.png" alt=""></div>
+        <div class="home">
+            <span>home</span>
+            <span>about</span>
+            <span>feedback</span>
+            <span>contact us</span>
+        </div>
+    </div>
+    
+    <div class="side-bar">
+        <div class="img">
+            <img src="image-food/Pizza.jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="image-food/download.jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="image-food/Burgur.jpeg" alt="">
+        </div>
+        <div class="img">
+            <img src="image-food/custom-Ideas.png" alt="">
+        </div>
+        <div class="img">
+            <img src="image-food/desirt-food.jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="image-food/biryani.jpg" alt="">
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="img-2"><img src="image-food/healthyfoods.jpg" alt=""></div>
+        <div class="img-3"><img src="image-food/pro-sid-.jpg" alt=""></div>
+        <div class="text">
+            <h1>
+                Our Foods :
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quasi nemo enim nesciunt. Magnam temporibus
+                similique aspernatur! Earum aliquam consequuntur veniam ut dignissimos, adipisci quia quasi voluptate,
+                non repellendus id.
+            </p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
